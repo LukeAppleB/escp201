@@ -1,6 +1,6 @@
 pragma solidity 0.8.0;
 
-contract StorageDesign1 {
+contract MappingStorage {
    
     struct Entity {
         uint data;
