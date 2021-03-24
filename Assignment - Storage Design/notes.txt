@@ -1,0 +1,16 @@
+Array:
+addEntity fee - 62607, 47607, 47607, 47607, 47607
+update on 5th - 20197
+
+Key/Pair:
+addEntity fee - 41656, 41656, 41656, 41656, 41656
+update on 5th - 5739
+
+When executing the addEntity function, which design consumes the most gas (execution cost)? 
+Is it a significant difference? Why/why not?
+The array method uses slightly more gas when adding. I wouldnt consider it a significant amount more. I think it is just because k/v pairs are slightly less write intensive.
+
+Which solution consumes more gas and why?
+The array solution uses more overall, especially when it comes to updating. I think this is due to how you need to loop through it, more loops more gas!
+
+
